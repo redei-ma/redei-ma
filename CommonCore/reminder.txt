@@ -1,2 +1,3 @@
 -controllare split, richiamare un funzione che mi liberti tutta la matrice se una allocazione di allocate viene nulla
 - sistmare l'overflow di calloc con size_t e non int che (overflov a*b = c if(c/b != a)
+-controllare la coerenza tra i valori, esempio int dentro size_t
