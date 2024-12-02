@@ -15,21 +15,20 @@
 void	*ft_calloc(size_t nmemb, size_t size)
 {
 	void	*dest;
-	int		i;
+	int		tot;
 
-	i = 0;
+	tot = nmemb * size;
 	if (nmemb == 0 || size == 0)
 	{
 		nmemb = 1;
 		size = 1;
 	}
-	if (nmemb > INT_MAX / size)
+	if (tot / size != nmemb)
 		return (NULL);
-	i = nmemb * size;
-	dest = malloc(i);
+	dest = malloc(tot);
 	if (dest == NULL)
 		return (NULL);
-	ft_bzero(dest, i);
+	ft_bzero(dest, tot);
 	return (dest);
 }
 
