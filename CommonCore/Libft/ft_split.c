@@ -33,10 +33,26 @@ size_t	ft_count_words(const char *s, char c)
 	return (count);
 }
 
-char	**ft_allocate(char **dest, const char *s, const char c)
+void	ft_cleanmat(char **dest)
 {
-	int	n;
+	char	**tmp;
 
+	tmp = dest;
+	while (*tmp)
+	{
+		free(*tmp);
+		*tmp = NULL;
+		tmp++;
+	}
+	free(dest);
+}
+
+void	**ft_allocate(char **dest, const char *s, const char c)
+{
+	char	**start;
+	int		n;
+
+	start = dest;
 	while (*s)
 	{
 		while (*s == c)
@@ -47,11 +63,15 @@ char	**ft_allocate(char **dest, const char *s, const char c)
 		if (n > 0)
 		{
 			*dest = ft_substr(s, 0, n);
+			if(!*dest)
+			{
+				ft_cleanmat(start);
+				return ;
+			}
+			dest++;
 		}
-		dest++;
-		s = s + n;
+		s += n;
 	}
-	return (dest);
 }
 
 char	**ft_split(char const *s, char c)
@@ -66,7 +86,6 @@ char	**ft_split(char const *s, char c)
 	if (!dest)
 		return (NULL);
 	ft_allocate(dest, s, c);
-	dest[words] = NULL;
 	return (dest);
 }
 
