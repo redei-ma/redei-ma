@@ -27,21 +27,21 @@ Open to relocation and to hybrid arrangements.
 
 | Project | What it is | |
 |---|---|---|
-| Libft | A C standard library written from scratch: memory, strings, linked lists | [repo](https://github.com/redei-ma/libft) |
-| ft_printf | Variadic formatted output, reimplemented | [repo](https://github.com/redei-ma/libft) |
-| get_next_line | Reading a file line by line, with a static buffer per descriptor | [repo](https://github.com/redei-ma/libft) |
-| Born2beroot | A hardened Debian VM: LVM, UFW, SSH, sudo policy, password rules | — |
-| push_swap | Sorting a stack through eleven operations, with the cost as the metric | [repo](https://github.com/redei-ma/push_swap) |
-| pipex | Shell pipelines in C: pipe, fork, dup2 and execve | [repo](https://github.com/redei-ma/pipex) |
-| so_long | A 2D tile game with MiniLibX: map parsing, sprites, event handling | [repo](https://github.com/redei-ma/so_long) |
-| Philosophers | The dining philosophers, twice: threads with mutexes, processes with semaphores | [repo](https://github.com/redei-ma/philosophers) |
-| minishell | A Bash-like shell: lexing, parsing, pipes, redirections, builtins | [repo](https://github.com/redei-ma/minishell) |
-| NetPractice | Subnetting and routing, fixed by hand on broken topologies | — |
-| cub3D | A raycasting engine: textured walls, doors, real-time movement | [repo](https://github.com/redei-ma/cub3D) |
-| CPP 00–09 | Ten modules of C++98: classes, polymorphism, templates, containers | [repo](https://github.com/redei-ma/cpp-modules) |
-| ft_irc | An IRC server in C++98: non-blocking sockets, poll, channels, operators | [repo](https://github.com/redei-ma/ft_irc) |
-| Inception | A Docker infrastructure built from scratch: NGINX with TLS, WordPress, MariaDB | [repo](https://github.com/redei-ma/inception) |
-| ft_transcendence | A 3D browser game on four NestJS services, real-time over WebSockets | [repo](https://github.com/redei-ma/ft_transcendence) |
+| Libft | **C** — A C standard library written from scratch: memory, strings, linked lists | [repo](https://github.com/redei-ma/libft) |
+| ft_printf | **C** — Variadic formatted output, reimplemented | [repo](https://github.com/redei-ma/libft) |
+| get_next_line | **C** — Reading a file line by line, with a static buffer per descriptor | [repo](https://github.com/redei-ma/libft) |
+| Born2beroot | **Debian, LVM, UFW** — A hardened virtual machine: SSH, sudo policy, password rules | — |
+| push_swap | **C** — Sorting a stack through eleven operations, with the cost as the metric | [repo](https://github.com/redei-ma/push_swap) |
+| pipex | **C, UNIX** — Shell pipelines in C: pipe, fork, dup2 and execve | [repo](https://github.com/redei-ma/pipex) |
+| so_long | **C, MiniLibX** — A 2D tile game: map parsing, sprites, event handling | [repo](https://github.com/redei-ma/so_long) |
+| Philosophers | **C, pthreads** — The dining philosophers, twice: threads with mutexes, processes with semaphores | [repo](https://github.com/redei-ma/philosophers) |
+| minishell | **C** — A Bash-like shell: lexing, parsing, pipes, redirections, builtins | [repo](https://github.com/redei-ma/minishell) |
+| NetPractice | **TCP/IP** — Subnetting and routing, fixed by hand on broken topologies | — |
+| cub3D | **C, MiniLibX** — A raycasting engine: textured walls, doors, real-time movement | [repo](https://github.com/redei-ma/cub3D) |
+| CPP 00–09 | **C++98** — Ten modules: classes, polymorphism, templates, containers | [repo](https://github.com/redei-ma/cpp-modules) |
+| ft_irc | **C++98, sockets** — An IRC server: non-blocking I/O through a single poll, channels, operators | [repo](https://github.com/redei-ma/ft_irc) |
+| Inception | **Docker, NGINX** — A multi-service infrastructure built from scratch: TLS, WordPress, MariaDB | [repo](https://github.com/redei-ma/inception) |
+| ft_transcendence | **TypeScript, NestJS** — A 3D browser game on four services, real-time over WebSockets | [repo](https://github.com/redei-ma/ft_transcendence) |
 
 Born2beroot and NetPractice were done but have no repository, because neither
 produces source code: the first is a Debian virtual machine configured by hand,
@@ -51,8 +51,9 @@ the second a set of broken network topologies to fix inside the intra.
 
 | Project | What it is | |
 |---|---|---|
-| Inception-of-Things | Kubernetes from scratch: K3s, k3d, Argo CD and a self-hosted GitLab, provisioned with Vagrant | [repo](https://github.com/redei-ma/Inception-of-Things) |
+| Inception-of-Things | **Kubernetes, Vagrant** — Clusters from scratch: K3s, k3d, Argo CD and a self-hosted GitLab | [repo](https://github.com/redei-ma/Inception-of-Things) |
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/renato-dei-marini)
+- **Email** — [renato.deimarini@gmail.com](mailto:renato.deimarini@gmail.com)
+- **LinkedIn** — [linkedin.com/in/renato-dei-marini](https://www.linkedin.com/in/renato-dei-marini)
