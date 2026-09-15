@@ -9,10 +9,10 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
-Student at 42 Firenze, based in Padova. I write systems code in C and C++ — a
-shell, an IRC server, a raycasting engine — and I run what I write in
-containers, from a WordPress stack behind NGINX to a K3s cluster driven by
-Argo CD.
+Junior software engineer, trained at the 42 Firenze common core, between
+Florence and Padua. I write systems code in C and C++ — a shell, an IRC
+server, a raycasting engine — and I run what I write in containers, from a
+WordPress stack behind NGINX to a K3s cluster driven by Argo CD.
 
 Most of what is here was written for the 42 common core, where every project
 starts from an empty file: no frameworks, no libraries beyond the C standard
@@ -21,7 +21,7 @@ The repositories are the finished work, cleaned up and documented, not the
 scratchpad it was written in.
 
 **Available for work now**, in systems, backend or infrastructure engineering.
-Based in Padova, open to relocation and to hybrid arrangements.
+Open to relocation and to hybrid arrangements.
 
 ## The 42 common core
 
