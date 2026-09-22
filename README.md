@@ -23,6 +23,8 @@ scratchpad it was written in.
 **Available for work now**, in systems, backend or infrastructure engineering.
 Open to relocation and to hybrid arrangements.
 
+**[Curriculum vitae (PDF)](https://github.com/redei-ma/redei-ma/blob/main/Renato_Dei_Marini_CV.pdf)**
+
 ## The 42 common core
 
 | Project | What it is | |
@@ -57,3 +59,4 @@ the second a set of broken network topologies to fix inside the intra.
 
 - **Email** — [renato.deimarini@gmail.com](mailto:renato.deimarini@gmail.com)
 - **LinkedIn** — [linkedin.com/in/renato-dei-marini](https://www.linkedin.com/in/renato-dei-marini)
+- **CV** — [Renato_Dei_Marini_CV.pdf](https://github.com/redei-ma/redei-ma/blob/main/Renato_Dei_Marini_CV.pdf)
