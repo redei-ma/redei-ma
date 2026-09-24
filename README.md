@@ -15,8 +15,8 @@ server, a raycasting engine — and I run what I write in containers, from a
 WordPress stack behind NGINX to a K3s cluster driven by Argo CD.
 
 Most of what is here was written for the 42 common core, where every project
-starts from an empty file: no frameworks, no libraries beyond the C standard
-one, and a subject that says what the program must do and nothing about how.
+starts from an empty file: no frameworks, only the few libraries the subject
+allows, and a subject that says what the program must do and nothing about how.
 The repositories are the finished work, cleaned up and documented, not the
 scratchpad it was written in.
 
@@ -30,8 +30,8 @@ Open to relocation and to hybrid arrangements.
 | Project | What it is | |
 |---|---|---|
 | Libft | **C** — A C standard library written from scratch: memory, strings, linked lists | [repo](https://github.com/redei-ma/libft) |
-| ft_printf | **C** — Variadic formatted output, reimplemented | [repo](https://github.com/redei-ma/libft) |
-| get_next_line | **C** — Reading a file line by line, with a static buffer per descriptor | [repo](https://github.com/redei-ma/libft) |
+| ft_printf | **C** — Variadic formatted output, reimplemented | [in libft](https://github.com/redei-ma/libft) |
+| get_next_line | **C** — Reading a file line by line, with a static buffer per descriptor | [in libft](https://github.com/redei-ma/libft) |
 | Born2beroot | **Debian, LVM, UFW** — A hardened virtual machine: SSH, sudo policy, password rules | — |
 | push_swap | **C** — Sorting a stack through eleven operations, with the cost as the metric | [repo](https://github.com/redei-ma/push_swap) |
 | pipex | **C, UNIX** — Shell pipelines in C: pipe, fork, dup2 and execve | [repo](https://github.com/redei-ma/pipex) |
@@ -43,11 +43,13 @@ Open to relocation and to hybrid arrangements.
 | CPP 00–09 | **C++98** — Ten modules: classes, polymorphism, templates, containers | [repo](https://github.com/redei-ma/cpp-modules) |
 | ft_irc | **C++98, sockets** — An IRC server: non-blocking I/O through a single poll, channels, operators | [repo](https://github.com/redei-ma/ft_irc) |
 | Inception | **Docker, NGINX** — A multi-service infrastructure built from scratch: TLS, WordPress, MariaDB | [repo](https://github.com/redei-ma/inception) |
-| ft_transcendence | **TypeScript, NestJS** — A 3D browser game on four services, real-time over WebSockets | [repo](https://github.com/redei-ma/ft_transcendence) |
+| ft_transcendence | **TypeScript, NestJS, PostgreSQL** — A 3D browser game on four services, real-time over WebSockets, built by a team of five; mine are the user service and the database schema | [repo](https://github.com/redei-ma/ft_transcendence) |
 
-Born2beroot and NetPractice were done but have no repository, because neither
-produces source code: the first is a Debian virtual machine configured by hand,
-the second a set of broken network topologies to fix inside the intra.
+Fifteen projects, eleven repositories: ft_printf and get_next_line live inside
+Libft, and Born2beroot and NetPractice have no repository because neither
+produces source code. The first is a Debian virtual machine configured by hand,
+the second a set of broken network topologies to fix inside the intra. With
+Inception-of-Things below, that makes twelve public projects.
 
 ## Beyond the common core
 
