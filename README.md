@@ -18,7 +18,9 @@ Most of what is here was written for the 42 common core, where every project
 starts from an empty file: no frameworks, only the few libraries the subject
 allows, and a subject that says what the program must do and nothing about how.
 The repositories are the finished work, cleaned up and documented, not the
-scratchpad it was written in.
+scratchpad it was written in. Outside the curriculum, email-triage asks when
+keyword rules are enough and when a language model is worth its cost, and
+answers with a held-out test set.
 
 **Available for work now**, in systems, backend or infrastructure engineering.
 Open to relocation and to hybrid arrangements.
@@ -45,17 +47,16 @@ Open to relocation and to hybrid arrangements.
 | Inception | **Docker, NGINX** — A multi-service infrastructure built from scratch: TLS, WordPress, MariaDB | [repo](https://github.com/redei-ma/inception) |
 | ft_transcendence | **TypeScript, NestJS, PostgreSQL** — A 3D browser game on four services, real-time over WebSockets, built by a team of five; mine are the user service and the database schema | [repo](https://github.com/redei-ma/ft_transcendence) |
 
-Fifteen projects, eleven repositories: ft_printf and get_next_line live inside
-Libft, and Born2beroot and NetPractice have no repository because neither
-produces source code. The first is a Debian virtual machine configured by hand,
-the second a set of broken network topologies to fix inside the intra. With
-Inception-of-Things below, that makes twelve public projects.
+Born2beroot and NetPractice have no repository: the first is a Debian virtual
+machine configured by hand, the second a set of broken network topologies
+fixed inside the intra.
 
 ## Beyond the common core
 
 | Project | What it is | |
 |---|---|---|
 | Inception-of-Things | **Kubernetes, Vagrant** — Clusters from scratch: K3s, k3d, Argo CD and a self-hosted GitLab | [repo](https://github.com/redei-ma/Inception-of-Things) |
+| email-triage | **TypeScript, Ollama, Gemini** — A personal project: customer email triage with keyword rules, a local LLM and a cloud one, measured on a held-out test set | [repo](https://github.com/redei-ma/email-triage) |
 
 ## Contact
 
